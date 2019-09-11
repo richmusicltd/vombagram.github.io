@@ -898,7 +898,7 @@ nav .btn,
 }
 .nav-bar {
   height: 55px;
-  max-height: 55px;
+  max-height: 90px;
   line-height: 53px;
   border-bottom: 1px solid #ccc;
 }
@@ -4338,7 +4338,7 @@ video {
   max-height: 50px;
 }
 .image-xxs {
-  max-height: 30px;
+  max-height: 120px;
 }
 .fade-half {
   opacity: 0.5;
