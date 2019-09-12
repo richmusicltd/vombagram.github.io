@@ -10,9 +10,10 @@ var mr_firstSectionHeight,
 
 $(document).ready(function() { 
     "use strict";
- 	$("#richmusic").addClass(" slide-in-from-top"); 
-    $("#richmusic").addClass("slide-in-from-top");
 
+    $("#richmusic").addClass("slide-in-from-top");
+    $("#titleButton").addClass("slide-in-from-right");
+	
     $('a[href*="#"]')
     // Remove links that don't actually link to anything
     .not('[href="#"]')
