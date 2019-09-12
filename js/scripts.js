@@ -1279,7 +1279,24 @@ initializeMaps();
 
 // End of Maps
 
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
 
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+
+// Capture scroll events
+$(window).scroll(function(){
+    if(isScrolledIntoView($('#cta'))) {
+        $('#cta').addClass('slide-in-from-left');
+    }
+});
 
 
 // Prepare Signup Form - It is used to retrieve form details from an iframe Mail Chimp or Campaign Monitor form.
