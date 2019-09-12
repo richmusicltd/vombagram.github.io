@@ -11,7 +11,9 @@ var mr_firstSectionHeight,
 $(document).ready(function() { 
     "use strict";
 
+
     $("#richmusic").addClass("slide-in-from-top");
+    $("#bellaquitaTitle").addClass("slide-in-from-top");
     $("#titleButton").addClass("slide-in-from-right");
 	
     $('a[href*="#"]')
