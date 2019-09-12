@@ -724,7 +724,7 @@ footer.bg-dark li,
 /*!---------- 6. BUTTONS ----------*/
 .btn {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border: 2px solid #47b475;
+  border: 2px solid #000;
   padding: 0 26px;
   height: 40px;
   min-width: 150px;
@@ -747,7 +747,7 @@ footer.bg-dark li,
   margin-right: 0;
 }
 .btn:hover {
-  background: #47b475;
+  background: #000;
   color: #fff;
 }
 .btn-icon {
@@ -785,7 +785,7 @@ footer.bg-dark li,
   min-width: 0;
 }
 .btn-filled {
-  background: #47b475;
+  background: #000;
   color: #fff;
 }
 .btn-white,
@@ -802,7 +802,7 @@ footer.bg-dark li,
 }
 .image-bg .btn.btn-filled,
 .image-bg .btn-filled:visited {
-  border-color: #47b475;
+  border-color: #000;
 }
 .image-bg .btn-filled:hover {
   border-color: #fff;
@@ -826,7 +826,7 @@ body.btn-rounded .btn {
   color: #fff;
 }
 .btn:visited {
-  color: #47b475;
+  color: #000;
 }
 .btn-white:visited,
 .btn:visited:hover {
