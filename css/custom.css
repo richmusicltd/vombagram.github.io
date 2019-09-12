@@ -1,1 +1,70 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+.slide-in-from-top{
+    animation-duration: 3s;
+    animation-name: slideInFromTop;
+}
+@keyframes slideInFromTop {
+    from {
+        padding-bottom: 100%;
+
+    }
+    to {
+        padding-bottom: 0%;
+    }
+}
+
+.fade-image-in {
+    animation-duration: 5s;
+    animation-name: fadeImageIn;
+}
+@keyframes fadeImageIn {
+    from {
+        opacity: 0%;
+    }
+    50% {
+        opacity:35%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.slide-in-from-right {
+    animation-duration: 3s;
+    animation-name: slideInFromRight;
+}
+
+@keyframes slideInFromRight {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.slide-in-from-left {
+    animation-duration: 3s;
+    animation-name: slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+    from {
+        margin-right: 100%;
+        width: 300%;
+    }
+    left {
+        margin-right: 0%;
+        width: 100%;
+    }
+}
+
+.right {
+    opacity: 100%;
+}
+
+.left {
+    opacity: 100%;
+}
