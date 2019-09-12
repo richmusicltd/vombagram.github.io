@@ -68,3 +68,22 @@
 .left {
     opacity: 100%;
 }
+
+.mb-top-80 {
+    margin-top: 80px;
+} 
+.mb-bm-80 {
+    margin-bottom: -85px;
+}
+
+@media all and (max-width: 767px) {
+    .left-button {
+      margin-right: 0px;
+    }
+    .mb-top-80 {
+        margin-top: 0px;
+    }
+    .mb-bm-80 {
+        margin-bottom: -100px;
+    }
+}
