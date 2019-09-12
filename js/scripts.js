@@ -10,7 +10,7 @@ var mr_firstSectionHeight,
 
 $(document).ready(function() { 
     "use strict";
-
+ 	$("#richmusic").addClass(" slide-in-from-top"); 
     // Smooth scroll to inner links
         var innerLinks = $('a.inner-link');
 
