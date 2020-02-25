@@ -1,2 +1,2 @@
 # vombagram
-Demo Repo for landing Pages
+Demo Repo for Vombas Giveaway Page
